@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <header>
+    <h1 id="title">SURVEY FORM</h1>
+    <p id="description">This form will collects all the data of users.</p>
+    </header>
+    <main>
+      <form id="survey-form">
+        <label for="name" id="name-label">Please enter your name:</lable>
+        <input id="name" type="text"required placeholder="joe bloggs">
+        <hr>
+        <label for="email" id="email-label">Please enter your email:</lable>
+        <input id="email" type="email"required placeholder="cheese@cheese.com">
+        <hr>
+        <label for="number" id="number-label">Please enter your number:</label>
+        <input id="number" type="number" min="5" max="100"required placeholder="age">
+        <hr>
+        <label for="dropdown">Branch:</label>
+        <select id="dropdown">
+          <option>Civil</option>
+          <option>IT</option>
+          <option>CS</option>
+        </select>
+        <hr>
+        <label>Nationality:</label>
+        <input type="radio" name="radio-group" id="Indian" value="0">
+        <label for="Indian">Indian</label>
+        <input type="radio" name="radio-group" id="Non indian" value="1">
+        <label for="Non indian">Non indian</label>
+        <hr>
+        <label>State:</label>
+        <input type="checkbox" value="0" id="Mysore">
+        <label for="Mysore">Mysore</label>
+<input type="checkbox" value="0" id="Mandya">
+        <label for="Mandya">Mandya</label>
+        <hr>
+        <textarea>Please enter your additional comments here:</textarea>
+        <hr>
+<input id="submit" type="submit">
+       </form>
+    </main>
+ </body>
+</html>
